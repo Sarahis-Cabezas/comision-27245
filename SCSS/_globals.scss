@@ -12,7 +12,7 @@ a {
 	color: #ffffff;
 	font-style: italic;
 }
-.contenedor {
+.boby__contenedor {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -35,7 +35,7 @@ img {
 svg {
 	vertical-align: middle;
 }
-section {
+.body__section {
 	display: block;
 	padding-bottom: 5px;
 }
@@ -57,18 +57,18 @@ body {
 header {
 	background-color: rgb(40, 35, 44);
 }
-.social_media {
-	li {
+.header__social-media{	
+		li {
 		display: inline;
 		padding-left: 10px;
 		padding-right: 10px;
 		text-decoration-color: rgb(40, 35, 44);
-	}
+		}
 	display: inline-flexbox;
 	text-align: right;
 	color: lavender;
 }
-.Titulos {
+.body__Titulos {
 	color: rgb(40, 35, 44);
 	font-size: calc(20%);
 	font-style: normal;
@@ -77,8 +77,9 @@ footer {
 	background-color: rgb(204, 75, 0);
 	vertical-align: bottom;
 	position: relative;
+	margin-bottom: 0px;
 }
-.pie {
+.footer__pie {
 	text-align: center;
 	color: lavender;
 }
@@ -89,9 +90,6 @@ p {
 	margin-inline-start: 0px;
 	margin-inline-end: 0px;
 }
-.h1 {
-	font-size: calc(1rem + 1.2vw);
-}
 h1 {
 	font-size: calc(1rem + 1.2vw);
 	margin-top: 0;
@@ -101,36 +99,6 @@ h1 {
 	font-weight: 500;
 	font-weight: 500;
 	line-height: 1.2;
-	line-height: 1.2;
-}
-.h2 {
-	margin-top: 0;
-	margin-bottom: 0.2rem;
-	font-weight: 500;
-	line-height: 1.2;
-}
-.h3 {
-	margin-top: 0;
-	margin-bottom: 0.2rem;
-	font-weight: 500;
-	line-height: 1.2;
-}
-.h4 {
-	margin-top: 0;
-	margin-bottom: 0.2rem;
-	font-weight: 500;
-	line-height: 1.2;
-}
-.h5 {
-	margin-top: 0;
-	margin-bottom: 0.2rem;
-	font-weight: 500;
-	line-height: 1.2;
-}
-.h6 {
-	margin-top: 0;
-	margin-bottom: 0.2rem;
-	font-weight: 500;
 	line-height: 1.2;
 }
 h2 {
@@ -163,14 +131,21 @@ h6 {
 	font-weight: 500;
 	line-height: 1.2;
 }
-main {
+
+h6 {
+	margin-top: 0;
+	margin-bottom: 0.2rem;
+	font-weight: 500;
+	line-height: 1.2;
+}
+.body__main {
 	align-content: center;
 	background: rgb(217,72,0);
 	background: linear-gradient(180deg, rgba(217,72,0,0.8) 30%, rgba(255,191,122,0.8) 45%, rgba(255,254,158,0.7987570028011204) 65%, rgba(255,191,122,1) 85%, rgba(217,72,0,1) 100%);
-	min-height: 700px;
+	min-height: 1500px;
 	min-width: 30px;
 }
-.navbar-nav.navbar-center {
+.header__navbar-nav.navbar-center {
 	position: relative;
 	left: 45%;
 	transform: translatex(-40%);
