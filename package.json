@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss SCSS/styles.scss CSS/styles.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
-    "compile:sass": "sass --watch SCSS/styles.scss CSS/styles.css"
+    "compile:sass": "sass --watch SCSS:CSS"
   },
   "repository": {
     "type": "git",

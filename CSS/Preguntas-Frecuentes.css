@@ -1,0 +1,12 @@
+.Preguntas {
+  display: list-item;
+  text-align: justify;
+  padding-left: 10px;
+}
+
+.OtrasPreguntas {
+  display: inline-flexbox;
+  padding-left: 10px;
+}
+
+/*# sourceMappingURL=Preguntas-Frecuentes.css.map */
