@@ -10,7 +10,7 @@ table {
 fieldset {
 	text-align: center;
 	display: inline-flexbox;
-	background-color: rgb(248, 201, 100);
+	background-color: rgba(248, 201, 100, 0.767);
 	box-sizing: border-box;
 	min-width: 20px;
 	max-width: fit-content;
@@ -19,20 +19,23 @@ fieldset {
 	border-radius: 5%;
 	position: relative;
 	left: 50%;
-	transform: translatex(-50%);
+	transform: translatex(-51.5%);
     margin: 2%;
 }
-.TipodeServicio {
+.main__TipodeServicio {
 	display: inline-block;
 	text-align: center;
 	padding: 5px;
 }
-.formulario {
+.main__formulario {
 	display: inline-flexbox;
 	text-align: center;
+	box-sizing: border-box;
+	min-width: 10px;
+	min-height: 10px;
 }
-.DescripcionP {
-	box-sizing: content-box;
+.main__DescripcionP {
+	box-sizing: border-box;
 	min-width: 10px;
 	min-height: 10px;
 }
