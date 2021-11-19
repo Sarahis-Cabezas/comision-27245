@@ -1,9 +1,15 @@
 .main__Preguntas {
 	display: list-item;
+	box-sizing: border-box;
 	text-align: justify;
-	padding-left: 10px;
+	padding-left: 3%;
+	padding-top: 2%;
+	padding-right: 3%;
 }
 .main__OtrasPreguntas {
+	box-sizing: border-box;
 	display: inline-flexbox;
-	padding-left: 10px;
+	padding-left: 3%;
+	padding-top: 2%;
+	box-sizing: border-box;
 }

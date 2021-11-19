@@ -88,8 +88,6 @@ header {
 }
 .header__social-media li {
   display: inline;
-  padding-left: 10px;
-  padding-right: 10px;
   text-decoration-color: #28232c;
 }
 
@@ -100,7 +98,7 @@ header {
 }
 
 footer {
-  background-color: #cc4b00;
+  background-color: #7e0800;
   vertical-align: bottom;
   position: relative;
   margin-bottom: 0px;
@@ -211,13 +209,26 @@ main {
 }
 
 .main__about-us {
-  margin-top: 1%;
-  margin-left: 2%;
+  box-sizing: border-box;
+  padding-top: 1%;
+  margin-left: 3%;
 }
 
 p {
-  margin-top: 1%;
-  margin-left: 4%;
+  box-sizing: border-box;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.main__titulo-servicios {
+  box-sizing: border-box;
+  padding: 1%;
+}
+
+.main__table {
+  box-sizing: border-box;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 table {
@@ -268,13 +279,19 @@ fieldset {
 
 .main__Preguntas {
   display: list-item;
+  box-sizing: border-box;
   text-align: justify;
-  padding-left: 10px;
+  padding-left: 3%;
+  padding-top: 2%;
+  padding-right: 3%;
 }
 
 .main__OtrasPreguntas {
+  box-sizing: border-box;
   display: inline-flexbox;
-  padding-left: 10px;
+  padding-left: 3%;
+  padding-top: 2%;
+  box-sizing: border-box;
 }
 
 /*# sourceMappingURL=styles.css.map */
