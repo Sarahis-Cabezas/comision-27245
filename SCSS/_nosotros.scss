@@ -1,12 +1,22 @@
 .main__about-us{
+	display: inline-flexbox;
 	box-sizing: border-box;
-	padding-top: 1%;
-	margin-left: 3%;
-
+	margin: calc(1%);
+	margin-left: calc(2%);
+	text-decoration-line: underline ;
+	text-decoration-color: rgba(70, 0, 0, 0.658) ;
 
 }
 p{
 	box-sizing: border-box;
-	margin-left: 5%;
-	margin-right: 5%;
+
+}
+.--main{
+	display: inline-flexbox;
+	background-color: rgba(245, 245, 245, 0.096);
+	padding: 1%;
+	margin-left: 3%;
+	margin-right: 2%;
+	margin-top: 1%;
+	font-weight: 500;
 }
